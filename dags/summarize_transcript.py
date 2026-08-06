@@ -5,7 +5,6 @@ from google import genai
 import yt_dlp
 import json
 from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api.formatters import JSONFormatter
 
 @dag(
     tags=["summary"],
@@ -49,49 +48,45 @@ def summarize_transcript():
         seen_ids = set(seen_ids)
         return [v for v in metadata if v["id"] not in seen_ids]
 
-    # extract first 3 transcript files per day using video ids
+    # extract a transcript per new video
     @task
-    def extract_transcripts(vid_id: str | None):
-        if (vid_id == None):
-            print("No New videos found!")
-            return
-
+    def extract_transcripts(video: dict):
         ytt_api = YouTubeTranscriptApi()
+        fetched_transcript = ytt_api.fetch(video["id"])
+        transcript_text = " ".join(snippet.text for snippet in fetched_transcript)
 
-        # vid_id = "Na7tPZv2ckk"
-        
-
-        fetched_transcript = ytt_api.fetch(vid_id)
-
-        formatter = JSONFormatter()
-
-        json_formatted = formatter.format_transcript(fetched_transcript, indent=2)
-
-        with open('yt_transcript.json', 'w', encoding='utf-8') as json_file:
-            json_file.write(json_formatted)
+        return {
+            "id": video["id"],
+            "title": video["title"],
+            "transcript": transcript_text,
+        }
 
 
-    @task 
-    def summarize(chunk: str):
+    @task
+    def summarize(video: dict):
         client = genai.Client()
 
         prompt = f"""
-        Analyze this transcript chunk and return: 
-        1. A short summary 
+        Analyze this video transcript and return:
+        1. A short summary
         2. Any action items
         3. Tools, technologies, or companies mentioned
         4. Important decisions or opinions
 
-        Transcript chunk:
-        {chunk}
+        Transcript:
+        {video["transcript"]}
         """
-        
+
         response = client.models.generate_content(
             model="gemini-2.5-flash",
             contents=prompt,
         )
 
-        return response.text
+        return {
+            "id": video["id"],
+            "title": video["title"],
+            "summary": response.text,
+        }
 
 
     # combine_summaries
@@ -100,9 +95,8 @@ def summarize_transcript():
     metadata = extract_metadata()
     load_metadata_to_file(metadata)
     new_videos = diff_new_videos(metadata)
-    extract_transcripts(new_videos["id"])
-
-    # wait_for_files >> transcript >> chunks_list >> summaries
+    transcripts = extract_transcripts.expand(video=new_videos)
+    summaries = summarize.expand(video=transcripts)
 
 summarize_transcript()
 
