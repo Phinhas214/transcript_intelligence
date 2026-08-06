@@ -1,0 +1,410 @@
+You're listening to the data flowcast 
+ where we unlock the secrets of mastering 
+ airflow for data engineering in AI. 
+ Hi everyone, welcome to the data 
+ flowcast. I'm your host Kenton Danis and 
+ today I'm joined by Christos BCS who is 
+ an open source software engineer at G 
+ Research. Christos, how are you? 
+ >> I'm fine, thank you. How about you? 
+ >> Yeah, I'm doing well. I'm doing well. 
+ It's great to have you on. Uh let's go 
+ ahead and dive in. So for today's 
+ podcast, we're going to discuss how the 
+ G research open source software team 
+ contributes to Airflow. I'm very excited 
+ to get into this. I always love hearing 
+ from contributors to the project. Uh but 
+ before we get into that, let's start 
+ with some background. Can you tell us 
+ about what G Research does? 
+ >> Uh yes, G Research is a leading 
+ quantitative research and technology 
+ firm. We use a lot of machine learning, 
+ a lot of big data and emerging tech uh 
+ to predict movements in in financial 
+ markets and to try to answer the biggest 
+ questions in finance. 
+ >> Okay, very interesting. And at a high 
+ level, how does your company use 
+ Airflow? We deal heavily with big data 
+ and we perform a lot of data 
+ transformations and so we schedule and 
+ automate all these transformations with 
+ airflow. Um, basically we are using it 
+ for scheduling data and business 
+ analytics. 
+ >> Okay, interesting. Yeah, that makes 
+ sense. And so what does your team 
+ specifically do? 
+ >> As you as you mentioned, I'm part of the 
+ open source team. Uh we have our own 
+ open source projects that we are 
+ actively uh developing and maintaining 
+ and we also contribute to other open 
+ source projects like airflow on behalf 
+ of G research 
+ and we provide technical support to all 
+ the other teams that we have which are 
+ using the open source software that we 
+ are developing and maintaining. 
+ >> Okay, got it. So you're providing 
+ internal support to all of the teams 
+ that are using Airflow and also 
+ contributing to the project. 
+ >> Yes, exactly. 
+ >> Yeah. Very cool. And tell me a little 
+ bit more about why the company is 
+ investing in having you contribute to 
+ open source. That's not something we 
+ always hear about from Airflow users and 
+ I would love to hear more about the why 
+ they think that that's a valuable use of 
+ time. 
+ >> I mean, if you get down to it, it's just 
+ a business decision. It's much cheaper 
+ to contribute to an open source software 
+ and maintain it than it is to uh buy it 
+ or license it and also it's nice to have 
+ your own in-house technical support uh 
+ that knows your exact use cases because 
+ sometimes if you are depending on other 
+ company a third party and you need 
+ support from them you cannot always 
+ share your your exact business model and 
+ use cases and what you are doing. 
+ >> Yeah. Yeah, absolutely. Uh I would love 
+ to use that for for other companies to 
+ encourage them to contribute to the open 
+ source project as well. Of course, as 
+ you're saying, if you contribute, you 
+ get to influence the direction of the 
+ project in the way that works best for 
+ your company. So, 
+ >> it's it's always better to contribute to 
+ contribute your changes than to maintain 
+ a fork. 
+ >> Yeah, of course. Definitely maintaining 
+ a fork is a challenging route. I we've 
+ seen some companies do that but it they 
+ tend to run into issues I think at some 
+ point down the line. It's definitely a 
+ lot of work. So talking about a specific 
+ contribution I you've spoken recently 
+ about uh open telemetry and airflow and 
+ using those two together. Um and before 
+ we get into your contributions on that I 
+ just want to hear more about this 
+ integration and why it's important to 
+ your team. I think that I should start 
+ with explaining what open telemetry is. 
+ >> I don't think that a lot of people are 
+ familiar with open telemetry. It's 
+ actually a collection of tools that we 
+ use to collect metrics, logs and data. 
+ Um and then we use all this data to 
+ monitor our system and get a better 
+ understanding in a deeper level. Uh so 
+ each data each of three these three 
+ types provides a different a different 
+ view. Now my presentation the airflow 
+ summit focused on traces. What's a 
+ what's a trace? Um let's assume that we 
+ have an operation like for example we 
+ have a web app and we have a button and 
+ that button makes a makes a operation 
+ makes a call to a backend API and the 
+ API makes a call to a database and then 
+ returns something to the API and the API 
+ sends a response back to the front end. 
+ That whole thing all these steps are a 
+ trace and each individual step is a span 
+ and to put it in airflow context 
+ a trace could be a diagram run and the 
+ entire diagram run is a trace and then 
+ each individual step which is a task 
+ it's a span. Now the thing is that so 
+ with traces and spans they trace and 
+ spans hold some data like for example 
+ the start time the end time and then 
+ they have the attributes which are key 
+ value pairs and which we can we can use 
+ them to expose internal values that we 
+ have during runtime. Now we know the 
+ start time and the end time of a task 
+ from the web server UI. We don't need a 
+ span to tell to tell us that. But the 
+ thing is that we can also create our own 
+ spans under a task and monitor 
+ individual steps. Like for example, if a 
+ task uh consists of five or 10 different 
+ steps and it's very slow or for some 
+ reason it hangs, we could create our own 
+ spans for each individual step. See how 
+ long it takes and that that's going to 
+ give us a lot of options. Like for 
+ example, if we find that step three of 
+ the task is where it takes most of the 
+ time like um 80% of the of the task 
+ execution, we can we can uh find a way 
+ to optimize it uh increase performance 
+ or maybe refactor it or find another 
+ way. Anyway, you get so many options uh 
+ when you have all the insights. 
+ >> Okay, interesting. So it's helping you 
+ profile those tasks and what's going on 
+ in them. 
+ >> Yeah. Yeah. It's it helps you gain 
+ better visibility. Like for example, one 
+ task and this is very common. Someone 
+ could be using a task to make a call to 
+ an external service and you can also 
+ monitor that. You can create another 
+ span for that and you can know how long 
+ that call took and how long the 
+ operation the external service took and 
+ connect all of them. And using 
+ visualization back ends like Yak, you 
+ have a tree view where you know how long 
+ each node took to run. 
+ >> Cool. Yeah, that sounds very helpful. 
+ And then so this is something that you 
+ have implemented at your company and are 
+ using to help other teams the teams that 
+ use Airflow run more efficiently. Is 
+ that right? 
+ >> Yeah. But I also contribute that all to 
+ the upstream repo. So that Yeah. And and 
+ there are docs and people can read the 
+ docs and you know enable open telemetry. 
+ They can set up an open telemetry 
+ collector. 
+ um and then enable that and and start 
+ using it with airflow and see how so 
+ there are there are some default spans 
+ that get exported once you enable open 
+ telemetry in your flow configuration. 
+ There are some default spans like 
+ there's the root span which represents 
+ the entire diagram and then there are 
+ other spans one span for each task but 
+ you can you can extend that and you can 
+ add your own code and create your own 
+ spans from from under the tasks. 
+ I mean that that was part of my uh 
+ presentation at the airflow summit. I 
+ had a few examples of how people can add 
+ their own spans under the tasks. And by 
+ the way, that only works in Airflow 3.0 
+ and upwards. If someone is running Yeah. 
+ If someone is running an older version 
+ like 2.10, it it's not going to work 
+ very well because the the initial 
+ implementation uh it was it wasn't 
+ working as expected. 
+ >> Okay, I see. Um that's great that it's 
+ already working on the newest major 
+ version. I'm curious if you're during 
+ your talk at the Airflow Summit or maybe 
+ um remotely elsewhere, have you heard 
+ about other teams implementing the same 
+ thing now that you've contributed it 
+ back or just using it? Have folks been 
+ interested um indicated that it would 
+ also be helpful for their teams. 
+ >> Yeah. Yeah. Uh after the presentation, a 
+ lot of people came to me and we we had I 
+ had a few discussions with people using 
+ it or they were they were keen to use 
+ it. I mean they they didn't know that it 
+ worked with her flow three. So I yeah I 
+ I did a demo at the end of a 
+ presentation so and yeah not not many 
+ people were familiar with it but a lot 
+ of people are familiar with open dilemma 
+ they they just went so well they didn't 
+ know it worked with airflow. 
+ >> Yeah. Okay cool. And now that you've 
+ done this implementation for your team 
+ and you've contributed it to the open 
+ source project, are there any is there 
+ further work that you're looking to do 
+ on it? Is it now it works and it's done 
+ or are you looking to optimize it in any 
+ way? 
+ >> Okay, I think that traces are in uh in a 
+ very good state. They are working, but 
+ I've been looking at other at other 
+ areas lately um like for example 
+ metrics. Now the the open telemetry 
+ matrix implementation was very good but 
+ I found a few discrepancies between 
+ between the docs and the actual metrics 
+ that get exported and and so I've been 
+ doing some work around that. I'm 
+ actually having an open PR right now, an 
+ open p request uh where I'm trying to 
+ add a YAML file that will keep track of 
+ all the metrics throughout the project 
+ and then the the idea is to enforce some 
+ text uh in the CI so that when people 
+ add new matrix they always have to exist 
+ in the YAML so that the YAML file uh 
+ will be the single source of truth and 
+ also the YAML will be used to build the 
+ docs and that way we can make sure that 
+ there are no discrepancies and so when 
+ you read something in the docs it's 
+ there if you enable open telemetry 
+ prometheus or might be doing might be 
+ using stats d or data dog whatever back 
+ end you're using once you enable the 
+ configuration you check prometheus 
+ graphana the metrics are are always 
+ there what you've read in the config in 
+ the docs is there 
+ >> yeah okay got 
+ Um, love hearing about Doc's 
+ contributions. Those are really 
+ important. Outside of your work on open 
+ telemetry and Airflow, are there any 
+ other Airflow contributions that you and 
+ your team have worked on recently that 
+ you think are particularly exciting? 
+ >> Another work that I have been doing, I 
+ have been looking at the schedule 
+ performance. I mean, we uh we had a very 
+ powerful computer. we were running some 
+ DS and tasks and we could see that we uh 
+ the it wasn't utilizing 100% of the CPUs 
+ like for the scheduleuler and the 
+ workers and so we started doing some 
+ digging and we found out that and 
+ theuler has this idea where it picks a 
+ lot of tasks to examine and cure but in 
+ in fact after after it picks all the 
+ task and retrieves them from the 
+ database it applies a bunch of units And 
+ that ends up in in case the the schedule 
+ has already reached the limits and it 
+ cannot really queue any more tasks. It's 
+ it does it just does unnecessary 
+ computations. 
+ And so that that was decreasing 
+ throughput. The scheduleuler was doing 
+ all this work without actually 
+ scheduling anything. And we found out 
+ that if we just include the limits in 
+ the initial query that retrieves the 
+ task from the database that makes the 
+ scheduleuler always uh pick up the 
+ number of tasks that it can actually 
+ queue and also that's true for for a DAG 
+ like for example you could have a limit 
+ that can schedule only four tasks for a 
+ particular DAG. Um you would have 
+ reached that limit and then it would 
+ still go on and pick 30 or 40 tasks from 
+ that DAG. Although it was at the maximum 
+ level, it couldn't schedule anymore. So 
+ a whole a whole schedule would just go 
+ wasted. H it wouldn't schedule anything 
+ because it concentrated in a D where can 
+ reach max concurrency. Um and so by 
+ including the the limits at the start of 
+ it um that increased throughput a lot 
+ like for examp if you have the the 
+ shrier the load the greater the 
+ performance increase and that's 
+ something um I I've run a lot of tests 
+ there are some people from from 
+ astronomer that have also run a lot of 
+ tests 
+ and they've seen that they have come to 
+ the same conclusions as me that that 
+ that's a huge improvement that makes a 
+ lot of difference and so we we are still 
+ running some more tests but trying to 
+ cover all the edge cases and see that 
+ there's no regression but if all goes 
+ well that that should be into the main 
+ repo soon 
+ >> okay that's great mean probably 
+ inclusion in the next minor release yeah 
+ that's that's a really exciting 
+ improvement that will impact everybody 
+ using airflow right 
+ >> yeah Yeah, that's a great example. Any 
+ other projects that you wanted to cover 
+ that you're working on or contributions 
+ I should say? 
+ >> No, these are the major ones and I'm 
+ also doing some Yeah, everything has bug 
+ fixes. 
+ >> Okay, 
+ those are also very important though 
+ maybe not as interesting to go through 
+ one by one. 
+ Yeah. Okay. Very cool. Well, thank you 
+ for giving the details on both of those 
+ uh projects. Those are both really 
+ valuable contributions uh for Airflow. I 
+ always like to end with a standard final 
+ question for folks and that is uh what 
+ would you most like to see from the 
+ Airflow project in the near future maybe 
+ that you're not already contributing on 
+ buters 
+ or something. Um 
+ me and my team we are very content with 
+ weather flows today. But uh there are 
+ some very interesting changes in the 
+ task SDK and the whole separation with 
+ the task uh with the task execution path 
+ and also that uh that effort to make D 
+ language agnostic like I mean in the 
+ future you could write DAX in whatever 
+ language you want. Um, it doesn't have 
+ to be Python at some point. Could even 
+ be Java. And yeah, who knows? Uh, with 
+ the whole separation of the task SDK, it 
+ could be at some point people could be 
+ importing it into other projects and 
+ just using it as a dependency. I mean, 
+ that's that's very interesting. 
+ >> Yeah. Are there other languages that you 
+ would write DAGs in if that was 
+ available today? 
+ >> I mean, yeah, sure. Java would be one 
+ and I mean uh you know not everyone is 
+ familiar with all the languages. Uh 
+ sometimes you end up in a project and 
+ you're writing a language that you 
+ hardly even before like for example I I 
+ wasn't that much familiar with Python 
+ until I started working in airflow and 
+ yeah if you can do the same thing in a 
+ language that you are familiar with and 
+ you know best yeah why not? Yeah, 
+ absolutely. Definitely a feature that 
+ there's a lot of excitement around. Uh, 
+ okay. Well, that's great. Um, Christo, 
+ it's been really nice speaking with you. 
+ Thanks so much for going through all of 
+ that. Uh, to close us out, what is the 
+ best way for folks to get in touch with 
+ you? 
+ >> Well, thank you. 
+ People come, I mean, um, got it. I think 
+ the best way is my email which is 
+ available on my GitHub and from my 
+ GitHub profile can also get my LinkedIn 
+ profile. That's another way to reach me. 
+ Uh yeah. 
+ >> Okay, great. We'll put all of that in 
+ the show notes uh so folks can get it 
+ get it if they need it. Um okay. Well, 
+ thank you again for coming on. It's been 
+ a pleasure speaking with you. 
+ >> Thank you very much. A pleasure from me, 
+ too.
