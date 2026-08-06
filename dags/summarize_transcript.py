@@ -4,6 +4,8 @@ from airflow.providers.standard.sensors.filesystem import FileSensor
 from google import genai
 import yt_dlp
 import json
+from youtube_transcript_api import YouTubeTranscriptApi
+from youtube_transcript_api.formatters import JSONFormatter
 
 @dag(
     tags=["summary"],
@@ -49,17 +51,24 @@ def summarize_transcript():
 
     # extract first 3 transcript files per day using video ids
     @task
-    def extract_transcripts():
-        pass
+    def extract_transcripts(vid_id: str | None):
+        if (vid_id == None):
+            print("No New videos found!")
+            return
 
-    # load_transcript
-    # @task
-    # def extract_transcript(filepath: str):
-        # with open(filepath, 'r') as file:
-        #     content = file.read()
+        ytt_api = YouTubeTranscriptApi()
 
-        # print(f"Loaded transcript with {len(content)} characters")
-        # return content 
+        # vid_id = "Na7tPZv2ckk"
+        
+
+        fetched_transcript = ytt_api.fetch(vid_id)
+
+        formatter = JSONFormatter()
+
+        json_formatted = formatter.format_transcript(fetched_transcript, indent=2)
+
+        with open('yt_transcript.json', 'w', encoding='utf-8') as json_file:
+            json_file.write(json_formatted)
 
 
     @task 
@@ -91,6 +100,7 @@ def summarize_transcript():
     metadata = extract_metadata()
     load_metadata_to_file(metadata)
     new_videos = diff_new_videos(metadata)
+    extract_transcripts(new_videos["id"])
 
     # wait_for_files >> transcript >> chunks_list >> summaries
 
