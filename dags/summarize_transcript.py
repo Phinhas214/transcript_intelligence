@@ -4,7 +4,11 @@ from airflow.providers.standard.sensors.filesystem import FileSensor
 from google import genai
 import yt_dlp
 import json
+from pathlib import Path
 from youtube_transcript_api import YouTubeTranscriptApi
+from airflow.providers.smtp.hooks.smtp import SmtpHook
+
+INCLUDE_DIR = Path(__file__).resolve().parent.parent / "include"
 
 @dag(
     tags=["summary"],
@@ -28,12 +32,12 @@ def summarize_transcript():
 
     @task
     def load_metadata_to_file(metadata):
-        with open('../include/apache_airflow_yt_metadata.json', 'w', encoding='utf-8') as json_file:
+        with open(INCLUDE_DIR / 'apache_airflow_yt_metadata.json', 'w', encoding='utf-8') as json_file:
             json.dump(metadata, json_file, indent=2, ensure_ascii=False)
 
     @task
     def diff_new_videos(metadata):
-        seen_ids = Variable.get("yt_seen_video_ids", default_var=None, deserialize_json=True)
+        seen_ids = Variable.get("yt_seen_video_ids", default=None, deserialize_json=True)
 
         if seen_ids is None:
             # first run ever: treat everything currently on the channel as
@@ -88,6 +92,39 @@ def summarize_transcript():
             "summary": response.text,
         }
 
+    @task.short_circuit
+    def has_new_videos(summaries: list[dict]):
+        return len(summaries) > 0
+
+    @task
+    def combine_digest(summaries: list[dict]):
+        import html
+
+        sections = []
+        for video in summaries:
+            url = f"https://www.youtube.com/watch?v={video['id']}"
+            title = html.escape(video["title"])
+            summary = html.escape(video["summary"]).replace("\n", "<br>")
+            sections.append(f'<h2><a href="{url}">{title}</a></h2><p>{summary}</p>')
+
+        return "<h1>New Apache Airflow videos</h1>" + "".join(sections)
+
+    @task
+    def send_digest_email(digest_html: str):
+
+        recipient = Variable.get("digest_recipient_email")
+        with SmtpHook() as hook:
+            hook.send_email_smtp(
+                to=recipient,
+                subject="Apache Airflow YouTube Digest",
+                html_content=digest_html,
+            )
+
+    @task
+    def mark_as_seen(new_videos: list[dict]):
+        seen_ids = set(Variable.get("yt_seen_video_ids", default=[], deserialize_json=True))
+        seen_ids.update(v["id"] for v in new_videos)
+        Variable.set("yt_seen_video_ids", list(seen_ids), serialize_json=True)
 
     # combine_summaries
     # extract_action_items
@@ -97,6 +134,14 @@ def summarize_transcript():
     new_videos = diff_new_videos(metadata)
     transcripts = extract_transcripts.expand(video=new_videos)
     summaries = summarize.expand(video=transcripts)
+
+    should_send = has_new_videos(summaries)
+    digest = combine_digest(summaries)
+    email_sent = send_digest_email(digest)
+    seen_marked = mark_as_seen(new_videos)
+
+    should_send >> digest
+    email_sent >> seen_marked
 
 summarize_transcript()
 
