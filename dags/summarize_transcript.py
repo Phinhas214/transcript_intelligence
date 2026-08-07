@@ -8,14 +8,24 @@ from pathlib import Path
 from youtube_transcript_api import YouTubeTranscriptApi
 from airflow.providers.smtp.hooks.smtp import SmtpHook
 import html
+import markdown
+from datetime import timedelta
 
 INCLUDE_DIR = Path(__file__).resolve().parent.parent / "include"
+
+default_args = {
+    'retries': 2, 
+    'retry_delay': timedelta(minutes=5), 
+    'retry_exponential_backoff': True, 
+
+}
 
 @dag(
     tags=["summary"],
     description="DAG to extract info out of youtube transcripts",
     schedule="@daily",
-    start_date=datetime(2026, 1, 1)
+    start_date=datetime(2026, 1, 1),
+    default_args=default_args,
 )
 
 
@@ -72,7 +82,7 @@ def summarize_transcript():
         client = genai.Client()
 
         prompt = f"""
-        Analyze this video transcript and return:
+        Analyze this video transcript and return (only return what's asked nothing more):
         1. A short summary
         2. Any action items
         3. Tools, technologies, or companies mentioned
@@ -104,10 +114,10 @@ def summarize_transcript():
         for video in summaries:
             url = f"https://www.youtube.com/watch?v={video['id']}"
             title = html.escape(video["title"])
-            summary = html.escape(video["summary"]).replace("\n", "<br>")
+            summary = markdown.markdown(video["summary"])
             sections.append(f'<h2><a href="{url}">{title}</a></h2><p>{summary}</p>')
 
-        return "<h1>New Apache Airflow videos</h1>" + "".join(sections)
+        return "<h1>Apache Airflow Newsletter</h1>" + "".join(sections)
 
     @task
     def send_digest_email(digest_html: str):

@@ -3,3 +3,4 @@ google-genai
 yt-dlp
 youtube_transcript_api
 apache-airflow-providers-smtp
+markdown
