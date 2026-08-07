@@ -1,0 +1,1946 @@
+[
+  {
+    "id": "cznc1tFYnMI",
+    "title": "July 2026 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "fApGy02BFNg",
+    "title": "June 2026 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "aDlJOWSqACI",
+    "title": "On Our Way to Airflow Summit 2026! - April Austin Meetup"
+  },
+  {
+    "id": "PIYpAEnkjQk",
+    "title": "May 2026 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "UJLAi5liWGc",
+    "title": "April 2026 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "QWOyaXwRj8I",
+    "title": "March 2026 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "ACpzO-II6jY",
+    "title": "February 2026 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "htGu3J-ssxA",
+    "title": "Recap Airflow Summit 2025- On our way to Airflow Summit 2026!"
+  },
+  {
+    "id": "X-fIaKJGLQs",
+    "title": "Airflow DAG Upgrade Agent: Using Google ADK, Gemini, and Vertex AI RAG Engine to Accelerate Upgrades"
+  },
+  {
+    "id": "_QZFgQcGPYA",
+    "title": "Airflow 3’s Trigger UI: Evolution of Params - Airflow Summit 2025"
+  },
+  {
+    "id": "_Xr5zguWHs4",
+    "title": "Lessons learned from migrating to Airflow @ LinkedIn - Airflow Summit 2025"
+  },
+  {
+    "id": "_lwIFVr2lOw",
+    "title": "December 2025 Airflow Monthly Virtual Town Hall"
+  },
+  {
+    "id": "yCBLLtZmrqQ",
+    "title": "Vayu: The Airflow Copilot"
+  },
+  {
+    "id": "aOGG-OYx65Q",
+    "title": "Using Airflow for Real-Time Data Processing at Scale: Architecture, Challenges & Wins"
+  },
+  {
+    "id": "kiHbPkH2aD8",
+    "title": "Securing Airflow CLI with API"
+  },
+  {
+    "id": "qZI82VVL7FE",
+    "title": "From Complexity to Simplicity with TaskHarbor: Trendyol's Path to a Unified Orchestration Platform"
+  },
+  {
+    "id": "-6lVhmEzW-M",
+    "title": "Cloud Composer - update on what's new!"
+  },
+  {
+    "id": "y0i-2QuayL8",
+    "title": "Empowering Precision Healthcare with Apache Airflow-iKang Healthcare Group’s DataHub Journey"
+  },
+  {
+    "id": "xm8My1aceBw",
+    "title": "Driving Analytics with Open Source: Airbyte, dbt, Airflow & Metabase"
+  },
+  {
+    "id": "W5VDk_g6e3k",
+    "title": "Building an MLOps Platform for 300+ ML/DS Specialists on Top of Airflow"
+  },
+  {
+    "id": "K5EDFthOAyg",
+    "title": "Automating Threat Intelligence with Airflow, XDR, and LLMs using the MITRE ATT&CK Framework"
+  },
+  {
+    "id": "BgKrX3UGP-0",
+    "title": "Automating Healthcare Triage with Airflow and Large Language Models - Airflow Summit Online 2025"
+  },
+  {
+    "id": "0zMi25eYOT8",
+    "title": "Enhancing DAG Management with DMS: A Scalable Solution for Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "PRwJP8AnBLE",
+    "title": "A Decade In Data Engineering - Lessons, Realities And Where We Go From Here - Airflow Summit 2025"
+  },
+  {
+    "id": "XeHzkkJd8J8",
+    "title": "From Repetition to Refactor: Smarter DAG Design in Airflow 3 - Airflow Summit 2025"
+  },
+  {
+    "id": "O7aVtRJKQIk",
+    "title": "Lessons from Airflow gone wrong: How to set yourself up to scale successfully - Airflow Summit 2025"
+  },
+  {
+    "id": "gd_0PkbO-DE",
+    "title": "Seamless Integration: Building Applications That Leverage Airflow's Database - Airflow Summit 2025"
+  },
+  {
+    "id": "DmhDMJ-d_eI",
+    "title": "Airflow That Remembers: The Dag Versioning Era is here! - Airflow Summit 2025"
+  },
+  {
+    "id": "iYkTEAre70E",
+    "title": "AWS Lambda Executor: The Speed of Local Execution and the Advantages of Remote - Airflow Summit 2025"
+  },
+  {
+    "id": "PWWj-pdIgsk",
+    "title": "Becoming an Apache Airflow Committer from 0 - Airflow Summit 2025"
+  },
+  {
+    "id": "Qb4zY5kSjOM",
+    "title": "Custom Operators in Action: A Guide to Extending Airflow's Capabilities - Airflow Summit 2025"
+  },
+  {
+    "id": "an1SD4v4lRk",
+    "title": "Enhancing Airflow REST API: From Basic Integration to Enterprise Scale - Airflow Summit 2025"
+  },
+  {
+    "id": "rYyVHzFEyM8",
+    "title": "Navigating Secure and Cost-Efficient Flink Batch on Kubernetes with Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "bzbXC4DtflQ",
+    "title": "Task failures troubleshooting based on Airflow & Kubernetes signals - Airflow Summit 2025"
+  },
+  {
+    "id": "JYT5XsG5DEo",
+    "title": "Model Context Protocol with Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "t7GiokD0jVw",
+    "title": "Enabling SQL testing in Airflow workflows using Pydantic types - Airflow Summit 2025"
+  },
+  {
+    "id": "CwVvEIUcSUs",
+    "title": "DAGnostics: Shift-Left Airflow Governance with Policy Enforcement Framework - Airflow Summit 2025"
+  },
+  {
+    "id": "MJBGCcWpLbY",
+    "title": "Simplifying Data Management with DAG Factory - Airflow Summit 2025"
+  },
+  {
+    "id": "fE1lCSH8rxM",
+    "title": "Airflow as a platform for Agentic AI applications products within Enterprises - Airflow Summit 2025"
+  },
+  {
+    "id": "dgZF3UM4W4k",
+    "title": "From Oops to Secure Ops: Self-Hosted AI for Airflow Failure Diagnosis - Airflow Summit 2025"
+  },
+  {
+    "id": "bwhM9kxnvdo",
+    "title": "5 Simple Strategies To Enhance Your DAGs For Data Processing - Airflow Summit 2025"
+  },
+  {
+    "id": "pdxlkV2hcrQ",
+    "title": "Scaling and Unifying Multiple Airflow Instances with Orchestration Frederator - Airflow Summit 2025"
+  },
+  {
+    "id": "DmGk7QyPySE",
+    "title": "Scaling ML Infrastructure: Lessons from Building Distributed Systems - Airflow Summit 2025"
+  },
+  {
+    "id": "NRbB3FuvVBg",
+    "title": "Using Apache Airflow with Trino for (almost) all your data problems - Airflow Summit 2025"
+  },
+  {
+    "id": "QP_b60bKlFs",
+    "title": "Multi-Instance Asset Synchronization - push or pull ? - Airflow Summit 2025"
+  },
+  {
+    "id": "VW2_wTsz_X0",
+    "title": "How Airflow can help with Data Management and Governance - Airflow Summit 2025"
+  },
+  {
+    "id": "fLzuAcDskiA",
+    "title": "Dynamic DAGs and Data Quality using DAGFactory - Airflow Summit 2025"
+  },
+  {
+    "id": "xTnGb6DM9Qc",
+    "title": "Data & AI Orchestration at GoDaddy - Airflow Summit 2025"
+  },
+  {
+    "id": "8SzFZUP-hM0",
+    "title": "Enhancing Small Retailer Visibility: Machine Learning Pipelines - Airflow Summit 2025"
+  },
+  {
+    "id": "1hIET8-nxlk",
+    "title": "Building an Airflow Center of Excellence: Lessons from the Frontlines - Airflow Summit 2025"
+  },
+  {
+    "id": "8yFvt7uLwNo",
+    "title": "Building a Transparent Data Workflow with Airflow and Data Catalog - Airflow Summit 2025"
+  },
+  {
+    "id": "FGzWD9ouYRQ",
+    "title": "Applying Airflow to drive the digital workforce in the Enterprise - Airflow Summit 2025"
+  },
+  {
+    "id": "Ohea9_gYOJY",
+    "title": "Orchestrating MLOps and Data Transformation at EDB with Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "YshxeIEtfUc",
+    "title": "Orchestrating AI Knowledge Bases with Apache Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "dsU0CSOEVCM",
+    "title": "Lessons learned for building open source Airflow operators at AWS - Airflow Summit 2025"
+  },
+  {
+    "id": "8sTRCdrGAVo",
+    "title": "No More Missed Beats: How Airflow Rescued Our Analytics Pipeline - Airflow Summit 2025"
+  },
+  {
+    "id": "Pzbin55GJgU",
+    "title": "Learn from Deutsche Bank: Using Apache Airflow in Regulated Environments - Airflow Summit 2025"
+  },
+  {
+    "id": "Hwx8DjYFkEY",
+    "title": "From Cron to Data-Aware: Evolving Airflow Scheduling at Scale - Airflow Summit 2025"
+  },
+  {
+    "id": "4BKIor_58mQ",
+    "title": "Fine-Tuning Airflow: Parameters You May Not Know About - Airflow Summit 2025"
+  },
+  {
+    "id": "9onAMnX2Uko",
+    "title": "Your privacy or our progress: rethinking telemetry in Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "NVDASIt-1LM",
+    "title": "Common provider abstractions: Key for multi-cloud data handling - Airflow Summit 2025"
+  },
+  {
+    "id": "5i79rY_FYcQ",
+    "title": "Airflow Uses in an on-prem Research Setting - Airflow Summit 2025"
+  },
+  {
+    "id": "Rti6RVDqrzk",
+    "title": "Simplifying Data Lineage: How OpenLineage Empowers Airflow and Beyond - Airflow Summit 2025"
+  },
+  {
+    "id": "bT1wZrVc_3c",
+    "title": "Dynamic Data Pipelines with DBT and Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "cHggWcOxe0o",
+    "title": "Data Quality and Observability with Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "iMfPAATSZCI",
+    "title": "Airflow & Bigtop: Modernize and integrate time-proven OSS stack - Airflow Summit 2025"
+  },
+  {
+    "id": "mUgCOjpmohs",
+    "title": "Agentic AI Automating Semantic Layer Updates with Airflow 3 - Airflow Summit 2025"
+  },
+  {
+    "id": "d2Ln5qIkLI0",
+    "title": "Event-Driven Airflow 3.0: Real-Time Orchestration with Pub/Sub - Airflow Summit 2025"
+  },
+  {
+    "id": "hXPWArMszwM",
+    "title": "Beyond the bundle - evolving DAG parsing in Airflow 3 - Airflow Summit 2025"
+  },
+  {
+    "id": "a_OUOllCBmA",
+    "title": "Beyond Execution Dates: Empowering inference execution - Airflow Summit 2025"
+  },
+  {
+    "id": "xm9KCgeQTKs",
+    "title": "Behind the Scenes: How We Tested Airflow 3 for Stability and Reliability - Airflow Summit 2025"
+  },
+  {
+    "id": "tdGNNJ7RuJk",
+    "title": "Managed Workflow for Apache Airflow (MWAA): What's New? - Airflow Summit 2025"
+  },
+  {
+    "id": "2QOQlqaA49E",
+    "title": "Simplifying DAG creation with an AI-powered IDE for Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "QjB7NWjujfw",
+    "title": "Semiconductor (Chip) Design Workflow Orchestration with Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "RQMNJtOmd6E",
+    "title": "Why Data Teams Keep Reinventing the Wheel - Airflow Summit 2025"
+  },
+  {
+    "id": "vqH6dsPPlgw",
+    "title": "Purple is the new green: harnessing deferrable operators - Airflow Summit 2025"
+  },
+  {
+    "id": "HcjNubkJ1G8",
+    "title": "Enterprise Auditing: \"The Verifiable Data Pipeline\" - Airflow Summit 2025"
+  },
+  {
+    "id": "mMcQWBbR19o",
+    "title": "Do you trust Airflow with your money? (We do!) - Airflow Summit 2025"
+  },
+  {
+    "id": "lx3avbX3A_Y",
+    "title": "Run Airflow tasks on your coffee machine - Airflow Summit 2025"
+  },
+  {
+    "id": "0r4YLRrN6d0",
+    "title": "LLMOps with Airflow 3.0 and the Airflow AI SDK - Airflow Summit 2025"
+  },
+  {
+    "id": "_jx-A3BdhZA",
+    "title": "Seamless Migration: Leveraging Ruff for a Smooth Transition - Airflow Summit 2025"
+  },
+  {
+    "id": "60qAfdkI5_U",
+    "title": "Operation Airlift: Uber's ongoing journey of migrating 200K pipelines - Airflow Summit 2025"
+  },
+  {
+    "id": "A_lR4ekx0DY",
+    "title": "Building Airflow 3 setups resilient to zonal/regional down events - Airflow Summit 2025"
+  },
+  {
+    "id": "iCA9V2HSR-M",
+    "title": "Boosting dbt-core workflows performance with Airflow’s Deferrable capabilities - Airflow Summit 2025"
+  },
+  {
+    "id": "6ZXQZnrU_fw",
+    "title": "Apache Airflow 3.0 - Bad vs. Best Practices In Production - Airflow Summit 2025"
+  },
+  {
+    "id": "zZN38hQkMpI",
+    "title": "Airflow 3 - An Open Heart Surgery - Airflow Summit 2025"
+  },
+  {
+    "id": "YU-4My_dneM",
+    "title": "How Airflow solves the coordination of decentralised teams @Vinted   Airflow Summit 2025"
+  },
+  {
+    "id": "B0_kdNYQpiU",
+    "title": "How Airflow Runs The Weather - Airflow Summit 2025"
+  },
+  {
+    "id": "nYhGEq6mguA",
+    "title": "From Centrailization to Autonomy: Managing Airflow Pipeline - Airflow Summit 2025"
+  },
+  {
+    "id": "KA6iDX5MVi4",
+    "title": "Assets: Past, Present, Future - Airflow Summit 2025"
+  },
+  {
+    "id": "4N58PPwiSIg",
+    "title": "New Tools, Same Craft: The Developer's Toolbox in 2025 - Airflow Summit 2025"
+  },
+  {
+    "id": "IdHEyWxxdGU",
+    "title": "GitHub's Airflow Journey: Lessons, Mistakes, and Insights - Airflow Summit 2025"
+  },
+  {
+    "id": "CqCRDdtjQ5M",
+    "title": "From DAGs to Insights: Business-Driven Airflow Use Cases - Airflow Summit 2025"
+  },
+  {
+    "id": "eTyvwTXWPuw",
+    "title": "Creating DuoFactory- a Orchestration Ecosystem with Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "XSAzSDVUi2o",
+    "title": "Airflow as an AI Agent's toolkit - Airflow Summit 2025"
+  },
+  {
+    "id": "qVG5ioC7Qbk",
+    "title": "Airflow 3 UI is not enough? Add a Plugin! - Airflow Summit 2025"
+  },
+  {
+    "id": "-L3NKga6HsI",
+    "title": "The Secret to Airflow's Evergreen Build: CI/CD magic - Airflow Summit 2025"
+  },
+  {
+    "id": "4EDL4JML01k",
+    "title": "Implementing Airflow Governance with Cluster Policies"
+  },
+  {
+    "id": "MASlKilrgtE",
+    "title": "ELT and Elections: Cloud-agnostic patterns for real-time analysis"
+  },
+  {
+    "id": "5EowstvMaqk",
+    "title": "Designing Scalable Retrieval-Augmented Generation (RAG) Pipelines at SAP with Apache Airflow"
+  },
+  {
+    "id": "xFqKFcx74WQ",
+    "title": "Linkedin's Journey on Scaling Airflow"
+  },
+  {
+    "id": "HhNagnNMLOU",
+    "title": "Orchestrator of Orchestrators: Uniting Airflow Pipelines with Business Applications in Production"
+  },
+  {
+    "id": "vfmpJnsV4Qk",
+    "title": "Lessons learned for Scaling up Airflow 3 in Public Cloud"
+  },
+  {
+    "id": "Y4xM5TpF7lo",
+    "title": "Orchestrating Data Quality - Quality Data Brought To You By Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "iw4PFPX7KdY",
+    "title": "LLM-Powered Review Analysis: Optimising Data Engineering using Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "AgAz5SHey24",
+    "title": "DAGLint: Elevating Airflow DAG Quality Through Automated Linting - Airflow Summit 2025"
+  },
+  {
+    "id": "NCEfZL2Aqss",
+    "title": "Breaking News with Data Pipelines: How Airflow and AI Power Investigative Journalism"
+  },
+  {
+    "id": "CxfXwEebK-M",
+    "title": "Benchmarking the Performance of Dynamically Generated DAGs - Airflow Summit 2025"
+  },
+  {
+    "id": "VoXTY_Xc4bE",
+    "title": "Airflow at OpenAI - Airflow Summit 2025"
+  },
+  {
+    "id": "rt9uhQI-8Og",
+    "title": "Orchestrating Databricks with Airflow: Unlocking the Power of MVs, Streaming Tables, and AI"
+  },
+  {
+    "id": "F7HFJb1HqZo",
+    "title": "Airflow & Your Automation CoE: Streamlining Integration for Enterprise-Wide Governance and Value"
+  },
+  {
+    "id": "wJJMNeFN-E8",
+    "title": "Why Datadog Chose Airflow 3: Multi-Tenancy, Observability and the Future of Event-Driven Workflows"
+  },
+  {
+    "id": "V3UYYQ_O1cc",
+    "title": "Why AWS chose Apache Airflow to power workflows for the next generation of Amazon SageMaker"
+  },
+  {
+    "id": "u-Ce_VWumoA",
+    "title": "Seamless Airflow Upgrades: Migrating from 2.x to 3 - Airflow Summit 2025"
+  },
+  {
+    "id": "WsI1lGc0X_c",
+    "title": "EdgeExecutor / Edge Worker - The new option to run anywhere - Airflow Summit 2025"
+  },
+  {
+    "id": "mB2lZLIVGHE",
+    "title": "Orchestrating Travel Insights: Priceline's MLOps with Airflow - Airflow Summit 2025"
+  },
+  {
+    "id": "8w_LXyRBv1c",
+    "title": "Automating Business Intelligence with Airflow: A Practical Guide - Airflow Summit 2025"
+  },
+  {
+    "id": "FuvpRKtB7ho",
+    "title": "Airflow Without Borders: A Journey into Internationalization (i18n)"
+  },
+  {
+    "id": "GT6BBdSwwt8",
+    "title": "Unlocking Event-Driven Scheduling in Airflow 3 - Airflow Summit 2025"
+  },
+  {
+    "id": "ome8BUtD_n0",
+    "title": "Security made us do it: Airflow’s new Task Execution Architecture - Airflow Summit 2025"
+  },
+  {
+    "id": "lCGjH2YLG-4",
+    "title": "Pittsburgh Goes With The Flow - Use Cases In Local Government - Airflow Summit 2025"
+  },
+  {
+    "id": "nGklMyALNbQ",
+    "title": "Introducing Apache Airflow® 3 – The Next Evolution in Orchestration - Airflow Summit 2025"
+  },
+  {
+    "id": "mZ6xbNDQz3k",
+    "title": "Beyond Logs: Unlocking Airflow 3.0 Observability with OpenTelemetry Traces - Airflow Summit 2025"
+  },
+  {
+    "id": "ZtYKWoK9QKI",
+    "title": "Deadline Alerts in Airflow 3.1 - Airflow Summit 2025"
+  },
+  {
+    "id": "21JjGq-lv8I",
+    "title": "Allegro's Airflow Journey: From On-Prem to Cloud Orchestration at Scale - Airflow Summit 2025"
+  },
+  {
+    "id": "peK_xyC9Z_c",
+    "title": "Apache Airflow Austin Meetup- November 6th, 2025"
+  },
+  {
+    "id": "5zlX5rICnfE",
+    "title": "November 2025 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "rdR31B3ysJU",
+    "title": "Airflow Summit 2025"
+  },
+  {
+    "id": "abR8khj77Jg",
+    "title": "September 2025 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "OhZImGbXCg8",
+    "title": "August 2025 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "3wvR-gHNWrI",
+    "title": "July 2025 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "8orWFgvymow",
+    "title": "June 2025 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "p_aOpTkfexQ",
+    "title": "May 2025 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "7CAkDE81nBs",
+    "title": "April 2025 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "iH9eja5UdmY",
+    "title": "March 2025 Airflow Monthly Town Hall"
+  },
+  {
+    "id": "lWCp-r-bQEI",
+    "title": "Hello Quality: Building CIs to run providers packages system tests"
+  },
+  {
+    "id": "B3aagFW517c",
+    "title": "How the Airflow Community Productionizes AI"
+  },
+  {
+    "id": "W0YDfUAQNRU",
+    "title": "Refactoring DAGs: From duplication to delightful efficiency with a centralized library"
+  },
+  {
+    "id": "T8Leid9EoUI",
+    "title": "Customizing LLMs: Leveraging technology to tailor GenAI using Airflow"
+  },
+  {
+    "id": "-jDfKP5fNxo",
+    "title": "Using Airflow Operational Data to Optimize Cloud Services"
+  },
+  {
+    "id": "9pvKUwBb2hs",
+    "title": "Empowering Business Analysts with DAG Authoring IDE running 8000 workflows"
+  },
+  {
+    "id": "Di1nhrr4-VM",
+    "title": "AIP 63: DAG versioning, where are we?"
+  },
+  {
+    "id": "2suK4F6JHLE",
+    "title": "Seeing Clearly with Airflow: The shift to data-aware orchestration"
+  },
+  {
+    "id": "0djdrF91n5s",
+    "title": "Gen AI using Airflow 3: A vision for Airflow RAGs"
+  },
+  {
+    "id": "xxP4UknkmBo",
+    "title": "DAGify: Enterprise schedule migration accelerator for Airflow"
+  },
+  {
+    "id": "D3_QlvKc0fQ",
+    "title": "The Silent Symphony: Keeping Airflow's CI/CD and Dev Tools in Tune"
+  },
+  {
+    "id": "unpgAqUGV9Y",
+    "title": "Lessons from the Ecosystem: What can Airflow Learn from Other Open-source Communities?"
+  },
+  {
+    "id": "Lnb0RV6GCMc",
+    "title": "Scalable Development of Event Driven Airflow DAGs"
+  },
+  {
+    "id": "QEMNhWKKPv8",
+    "title": "Empowing Airflow Users: A framework for performance testing and transparent resource optimization"
+  },
+  {
+    "id": "eClsYaFYtNw",
+    "title": "Scale and Security: How Autodesk securely develops and tests PII pipelines with Airflow"
+  },
+  {
+    "id": "prfwADzyPJM",
+    "title": "Connecting the Dots in Airflow"
+  },
+  {
+    "id": "1AZkGkgdUoQ",
+    "title": "Adaptive Memory Scaling for Robust Airflow Pipelines"
+  },
+  {
+    "id": "hGhrmma9mtg",
+    "title": "How we use Airflow at Booking to Orchestrate Big Data workflows"
+  },
+  {
+    "id": "zm9XfM3F0eg",
+    "title": "Unlocking the Power of Airflow Beyond Data Engineering at Cloudflare"
+  },
+  {
+    "id": "qkMSarl7BVE",
+    "title": "Mastering Advanced Dataset Scheduling in Apache Airflow"
+  },
+  {
+    "id": "9kXnpoN8qMA",
+    "title": "Simplified User Management in Airflow"
+  },
+  {
+    "id": "LoyIvKWXGuM",
+    "title": "OpenLineage: From operators to hooks"
+  },
+  {
+    "id": "WkljjYtqu8Q",
+    "title": "What if? Running Airflow tasks without workers"
+  },
+  {
+    "id": "3iKM28Ww73w",
+    "title": "Hybrid Executors: Have your cake and it eat too"
+  },
+  {
+    "id": "VK-2OO5-MNA",
+    "title": "The Essentials of Custom Executor Development"
+  },
+  {
+    "id": "Mqnmx9FbqNI",
+    "title": "Why do Airflow tasks fail?"
+  },
+  {
+    "id": "1cqFkbKftzI",
+    "title": "A New DAG Paradigm: Less Airflow more DAGs"
+  },
+  {
+    "id": "sUYsWG3jqMU",
+    "title": "Behaviour Driven Development in Airflow"
+  },
+  {
+    "id": "34BIya-YT40",
+    "title": "Airflow as a workflow for self service based ingestion"
+  },
+  {
+    "id": "GKkUtH9H57E",
+    "title": "How we run 100 Airflow environments and millions of tasks as a part time job using Kubernete"
+  },
+  {
+    "id": "s5Hxx5ux2rc",
+    "title": "Unlocking the Power of AI at Ford"
+  },
+  {
+    "id": "TYRp6FlGYJc",
+    "title": "Architecting Blockchain ETL Orchestration"
+  },
+  {
+    "id": "TH0SSdAZGPg",
+    "title": "A Game of Constant Learning and Adjustment"
+  },
+  {
+    "id": "kKUY2Vx76-0",
+    "title": "Stress Free Airflow Development: From dev to prod at Stripe"
+  },
+  {
+    "id": "GW7n3E3c3Gg",
+    "title": "LinkedIn's Continuous Deployment"
+  },
+  {
+    "id": "pWvdP1ukcXs",
+    "title": "Bronco: Managing Terraform at Scale with Aiflow"
+  },
+  {
+    "id": "ol6k7df3Kr0",
+    "title": "Airflow and Multi Cluster Slurm Working Together"
+  },
+  {
+    "id": "QHLedv-j8Hc",
+    "title": "Profiling Airflow Tasks with Memray"
+  },
+  {
+    "id": "IH8aU9jfaQk",
+    "title": "Weathering the Cloud Storms With Multi Region Airflow Workflows"
+  },
+  {
+    "id": "bDP11dIaVl8",
+    "title": "Converting Legacy Schedulers to Airflow"
+  },
+  {
+    "id": "9etsu9HA_HU",
+    "title": "Building in Resource Awareness and Event Dependency into Airflow"
+  },
+  {
+    "id": "BjWx2r3P3GA",
+    "title": "Investigating the Many Loops of the Airflow Scheduler"
+  },
+  {
+    "id": "gnJPFGvqLzU",
+    "title": "Overcoming Performance Hurdles in Integrating dbt with Airflow"
+  },
+  {
+    "id": "2wJrsPaPLSo",
+    "title": "How we Tuned our Airflow to Make 1.2 Million DAG runs per day"
+  },
+  {
+    "id": "tzW-sWllpGk",
+    "title": "Exploring DAG Design Patterns in Apache Airflow"
+  },
+  {
+    "id": "4UO_1cKpqsc",
+    "title": "Streamlining DAG Creation with YAML in Large Organizations"
+  },
+  {
+    "id": "-mbqXAF_4Ro",
+    "title": "Elevating Machine Learning Deployment: Unleashing the Power of Airflow in Wix's ML Platform"
+  },
+  {
+    "id": "Vw5D4wm3JaM",
+    "title": "Overcoming Custom Python Package Hurdles in Airflow"
+  },
+  {
+    "id": "VI_aRVBiDg8",
+    "title": "Orchestration of ML workloads via Airflow and GKE Batch"
+  },
+  {
+    "id": "ypD1grVIBq0",
+    "title": "Streamline data science workflow development using Jupyter notebooks and Airflow"
+  },
+  {
+    "id": "XokcRts8XTY",
+    "title": "From Oops to Ops: Smart Task Failure Diagnosis with OpenAI"
+  },
+  {
+    "id": "3lQgW0eOAZM",
+    "title": "Airflow at NCR Voyix: Streamlining ML workflows development with Airflow"
+  },
+  {
+    "id": "H8HLeKiLxxk",
+    "title": "How Panasonic Leverages Airflow"
+  },
+  {
+    "id": "r_mgXmJXCDc",
+    "title": "AI Reality Checkpoint: The Good, the Bad, and the Overhyped"
+  },
+  {
+    "id": "DPx-MVsXcns",
+    "title": "Unlocking FMOps/LLMOps with Airflow: A guide to operationalizing and managing Large Language Models"
+  },
+  {
+    "id": "8PyFL0IZwSE",
+    "title": "Scaling AI Workloads with Apache Airflow"
+  },
+  {
+    "id": "uy_Z-RB_ZeQ",
+    "title": "Empowering More Teams in your Organization to Self-service their Airflow Needs"
+  },
+  {
+    "id": "cd37h7bm8cc",
+    "title": "A deep dive into Airflow configuration options for scalability"
+  },
+  {
+    "id": "8aNHrFofT7I",
+    "title": "Managing version upgrades without feelings of terror"
+  },
+  {
+    "id": "d0wXnimEMUk",
+    "title": "dbt core & Airflow 101: Building data pipelines demystified"
+  },
+  {
+    "id": "76FHzS9hmKQ",
+    "title": "Data Orchestration for Emerging Technology Analysis"
+  },
+  {
+    "id": "YF5PnSjQZqo",
+    "title": "Streamlining a Mortgage ETL Pipeline with Apache Airflow"
+  },
+  {
+    "id": "nq_FiCWuLfM",
+    "title": "Airflow UI Roadmap"
+  },
+  {
+    "id": "qN0BJNR_GW0",
+    "title": "Running Airflow Tasks Anywhere, in any Language"
+  },
+  {
+    "id": "MAACq8drYuc",
+    "title": "Unleash the Power of AI: Streamlining Airflow DAG Development with AI-Driven Automation"
+  },
+  {
+    "id": "si6UCKpurmM",
+    "title": "Building on Cosmos: Making dbt on Airflow Easy"
+  },
+  {
+    "id": "EhrtShXSrsw",
+    "title": "Evolution of Airflow at Uber"
+  },
+  {
+    "id": "kGe4-Z24a7w",
+    "title": "Airflow, Spark, and LLMs: Turbocharging MLOps at ASAPP"
+  },
+  {
+    "id": "0-_m1CTKE1I",
+    "title": "Optimizing Critical Operations: Enhancing Robinhood's Workflow Journey with Airflow"
+  },
+  {
+    "id": "Me94KjSK8bw",
+    "title": "Automated Testing and Deployment of DAGs"
+  },
+  {
+    "id": "lYFCnVP-TcY",
+    "title": "Orchestrating & Optimizing a Batch Ingestion Data Platform for Americas #1 Sportsbook"
+  },
+  {
+    "id": "kAWJwuE45-E",
+    "title": "Building Reliable Data Products"
+  },
+  {
+    "id": "eGa8gtWMC1s",
+    "title": "Airflow Path to Industry Orchestration Standard"
+  },
+  {
+    "id": "MmgNSR63zTE",
+    "title": "Product Management perspective on Data Observability with Databand"
+  },
+  {
+    "id": "Yz1BHGhqG1Y",
+    "title": "Airflow and Control-M: Where Data Pipelines Meet Business Applications in Production"
+  },
+  {
+    "id": "dg3aKHnm8oI",
+    "title": "Airflow at Burns & McDonnell: Orchestration from 0 to 100 - Airflow Summit 2024"
+  },
+  {
+    "id": "mRuPETgCQwc",
+    "title": "Comparing Airflow Executors and Custom Environments"
+  },
+  {
+    "id": "ep7h462vLAo",
+    "title": "Boost Airflow Monitoring and Alerting with Automation Analytics & Intelligence"
+  },
+  {
+    "id": "KJteMn1iyO8",
+    "title": "Growing with Apache Airflow: A provider's journey"
+  },
+  {
+    "id": "QlCT3h6AxW0",
+    "title": "Optimizing Airflow Performance: Strategies, Techniques, and Best Practices"
+  },
+  {
+    "id": "4EU7M_E5pMw",
+    "title": "Airflow Datasets and Pub/Sub for Dynamic DAG Triggering - Airflow Summit 2024"
+  },
+  {
+    "id": "FS043ZLJyvU",
+    "title": "From Tech Specs to Business Impact: How to Design A Truly End-to-End Airflow Summit 2024"
+  },
+  {
+    "id": "z_j3UFIyj9o",
+    "title": "Activating operational metadata with Airflow, Atlan and OpenLineage - Airflow Summit 2024"
+  },
+  {
+    "id": "HUfdzkiYYg8",
+    "title": "Optimize Your DAGs: Embrace Dag Params for Efficiency and Simplicity - Airflow Summit 2024"
+  },
+  {
+    "id": "bk9NStntfi0",
+    "title": "Event-driven Data Pipelines with Apache Airflow - Airflow Summit 2024"
+  },
+  {
+    "id": "7w1YaHDM31s",
+    "title": "LLMs for Software Development & Apache Airflow"
+  },
+  {
+    "id": "8ZW80xdx8vE",
+    "title": "Winning Strategies: Powering a World Series Victory with Airflow Orchestration - Airflow Summit 2024"
+  },
+  {
+    "id": "GYJL1kOKFz0",
+    "title": "Airflow 3 Roadmap Discussion"
+  },
+  {
+    "id": "2g1nBbHgZbY",
+    "title": "The road ahead: What’s coming in Airflow 3 and beyond? - Airflow Summit 2024"
+  },
+  {
+    "id": "f6gfoVJXWEE",
+    "title": "Security United: ecosystem with Alpha-Omega, PSF & ASF - Airflow Summit 2024"
+  },
+  {
+    "id": "R_80D254oN0",
+    "title": "10 years of Airflow: history, insights, and looking forward - Airflow Summit 2024"
+  },
+  {
+    "id": "TXjrn9zW_MA",
+    "title": "Why should you attend Airflow Summit 2024?"
+  },
+  {
+    "id": "FFKRfTKRQrg",
+    "title": "Join us for Airflow Summit 2024!"
+  },
+  {
+    "id": "QcBdh_n4es4",
+    "title": "ML Ops Airflow use case"
+  },
+  {
+    "id": "2CEApKN0z1U",
+    "title": "Business OPs Airflow use case"
+  },
+  {
+    "id": "ljBU_VyihVQ",
+    "title": "ETL Airflow use case"
+  },
+  {
+    "id": "JkURWnl76GQ",
+    "title": "Infrastructure Airflow use case"
+  },
+  {
+    "id": "D-QPnhxMloo",
+    "title": "Airflow Summit 2023"
+  },
+  {
+    "id": "j4fmIh3ir3I",
+    "title": "Platform for Genomic Processing Using Airflow and ECS"
+  },
+  {
+    "id": "tLAbOaSbrIk",
+    "title": "Chase The Sun: Build greener DAGs with VertFlow"
+  },
+  {
+    "id": "9K_VEgbfXsk",
+    "title": "Supercharge Your Data Testing with a Fully Open Stack"
+  },
+  {
+    "id": "gp1WYXfpwv0",
+    "title": "Sketching Pipelines Using DAG Authoring UI"
+  },
+  {
+    "id": "rzS-3bUpxTg",
+    "title": "Manifest destiny: Orchestrating dbt using Airflow"
+  },
+  {
+    "id": "vxJe6QyJ3zk",
+    "title": "Data at Rest: Bringing granular quality into flowing pipelines"
+  },
+  {
+    "id": "XteD138eB3g",
+    "title": "Change Management Done Right Across Environments and Tools: DAGs, datasets and visualizations"
+  },
+  {
+    "id": "4SPYx6nhGvU",
+    "title": "From Bug To Bug Fix: Tips of how to submit an issue"
+  },
+  {
+    "id": "ZLnPYDJMCII",
+    "title": "Better Airflow with Metaflow : A modern human-centric ML infrastructure stack"
+  },
+  {
+    "id": "c7Bl_UBD3OY",
+    "title": "A Single Pane of Glass on Airflow using Astro Python SDK, Snowflake, dbt, and Cosmos"
+  },
+  {
+    "id": "incWquQPr4U",
+    "title": "Nurturing an Open Source Community is Like Tending a Garden"
+  },
+  {
+    "id": "cjre1uXWhjE",
+    "title": "My Journey to Committer Status: What I learned and how it can help you"
+  },
+  {
+    "id": "Ep40EFsKUw0",
+    "title": "Data Product DAGs"
+  },
+  {
+    "id": "6_Q-mbbM7f4",
+    "title": "Airflow at Bloomberg: Leveraging dynamic DAGs for data ingestion"
+  },
+  {
+    "id": "h9LtwyVtpRY",
+    "title": "Empowering Collaborative Data Workflows with Airflow and Cloud Services"
+  },
+  {
+    "id": "cAwPci1cyxY",
+    "title": "A Hypervisor for Airflow"
+  },
+  {
+    "id": "j3DIJHXTZQ4",
+    "title": "Guided Tour to DAG Authoring"
+  },
+  {
+    "id": "ztpBpD7FY0w",
+    "title": "DAG Authoring without PhD"
+  },
+  {
+    "id": "1PiVQza7wGo",
+    "title": "To Debug a DAG: The Airflow local dev story"
+  },
+  {
+    "id": "Ti7au0S8W7w",
+    "title": "The Why and How of Running a Self-Managed Airflow on Kubernetes"
+  },
+  {
+    "id": "Q7H0JYVnI9I",
+    "title": "Things to Consider when Building an Airflow Service"
+  },
+  {
+    "id": "z_BkpAA0RkA",
+    "title": "Forging the Future: Five years of fabricating with Airflowby Madison Swain-Bowden"
+  },
+  {
+    "id": "zPjIQjjjyHI",
+    "title": "Mastering Dependencies: The Airflow way"
+  },
+  {
+    "id": "YMOMZzr_tNc",
+    "title": "Unlocking the Power of Warehouse Allocation: Optimizing task dispatching for cost efficiency"
+  },
+  {
+    "id": "xm1sKYpyDnw",
+    "title": "Simplifying the Creation of Data Science Pipelines with Airflow"
+  },
+  {
+    "id": "nuFrsNMw9Fc",
+    "title": "From Pain Points to Best Practices: Enhancing Airflow migrations and local development at Wix.com"
+  },
+  {
+    "id": "IPWZ2yHk1oM",
+    "title": "Elevating Data Quality: Great Expectations and Airflow at PepsiCo"
+  },
+  {
+    "id": "_xv3U2m7SkY",
+    "title": "A New SQLAlchemyCollector and OpenLineageAdapter for Emitting Airflow Lineage Metadata as DAGs Run"
+  },
+  {
+    "id": "SZBVgREqets",
+    "title": "OpenLineage in Airflow: A Comprehensive Guide"
+  },
+  {
+    "id": "ieDPKbRET1E",
+    "title": "Eat, Sleep, Test, Repeat: How King ensures always-on data"
+  },
+  {
+    "id": "XdMR8nodnZc",
+    "title": "Airflow Driven Data Lineage In Public Cloud"
+  },
+  {
+    "id": "KuwpDTYGnHE",
+    "title": "How to use Data Contracts for Data Quality in your Airflow Ecosystem"
+  },
+  {
+    "id": "NcOeJFyhrHM",
+    "title": "Data about data: the case for a privacy centric schema language"
+  },
+  {
+    "id": "wkAb8mDDHMs",
+    "title": "Testing Airflow DAGs with Dagtest"
+  },
+  {
+    "id": "89VAPfShQ9Q",
+    "title": "Demystifying Apache Airflow: Separating facts from fiction"
+  },
+  {
+    "id": "n9bZWb-6dtA",
+    "title": "Supporting the Vast Airflow Community: Lessons learned from over 100 Airflow webinars"
+  },
+  {
+    "id": "KlvZUK3Fqbs",
+    "title": "Accelerating Data Delivery: How the FT automated its ETL pipelines with Airflow"
+  },
+  {
+    "id": "aQTOYxWs4zk",
+    "title": "Airflow at Gojek: Streamlining data processing for Tableau dashboards"
+  },
+  {
+    "id": "Aothhrhadtc",
+    "title": "Airflow at Twitch: Our recommendation system starring Airflow"
+  },
+  {
+    "id": "zpB75rEgBu0",
+    "title": "Airflow at UniCredit: Our journey from mainframe scheduling to modern data processing"
+  },
+  {
+    "id": "1b6Uu4M0ExY",
+    "title": "Airflow at Monzo: Evolving our data platform as the bank scales"
+  },
+  {
+    "id": "s6ZktpGoEps",
+    "title": "Airflow as a Data Hybrid Cloud Orchestrator"
+  },
+  {
+    "id": "9MlQqKI3O1c",
+    "title": "Airflow at Faire: Democratizing ML feature store framework at scale"
+  },
+  {
+    "id": "f7scw5eJD8Y",
+    "title": "Delay Modeling and DAG Connectivity: Optimizing Airflow performance in large organizations"
+  },
+  {
+    "id": "75z41Do-NaQ",
+    "title": "Airflow at StyleSeat: Our journey, challenges & results"
+  },
+  {
+    "id": "Or0nlM95b_o",
+    "title": "Airflow at Delivery Hero: Running a data mesh with ~500 Airflow instances"
+  },
+  {
+    "id": "cbjqgt_ZQj8",
+    "title": "Airflow at Snap: Managing permissions, migrations and internal tools"
+  },
+  {
+    "id": "DuztFxIo9Lo",
+    "title": "Reliable Airflow DAG Design When Building a Time-Series Data Lakehouse"
+  },
+  {
+    "id": "FExVqjvDjvw",
+    "title": "Airflow at Reddit: How we migrated from Airflow 1 to Airflow 2"
+  },
+  {
+    "id": "11WQWViGm34",
+    "title": "Airflow at Asurion: Simplified orchestration at petabyte scale"
+  },
+  {
+    "id": "8gcBdknaM8I",
+    "title": "Reducing Costs by Maximizing Airflow and DAG Performance"
+  },
+  {
+    "id": "kdAeBiBDscg",
+    "title": "Beyond Data Engineering: Airflow for Operations"
+  },
+  {
+    "id": "CjjZyxnHfdk",
+    "title": "Using Dynamic Task Mapping to Orchestrate dbt"
+  },
+  {
+    "id": "sdHrlTg1hZo",
+    "title": "Airflow at Salesforce: Building a fully managed workflow orchestration system"
+  },
+  {
+    "id": "6WY_hUoy-jA",
+    "title": "Traps and Misconceptions of Running Reliable Workloads in Apache Airflow"
+  },
+  {
+    "id": "Ib8lgj9Xa2U",
+    "title": "Enabling Data Mesh by Moving from a Monolithic Airflow to Several Smaller Environments"
+  },
+  {
+    "id": "fu45ppzj1wY",
+    "title": "Circumventing Airflows Limitations around Multitenancy"
+  },
+  {
+    "id": "6ysn3D1ky-E",
+    "title": "Cross Environment Event Based Triggers with Airflow"
+  },
+  {
+    "id": "SWe77zkanY8",
+    "title": "The Future of Airflow: What Users Want"
+  },
+  {
+    "id": "mgA6m3ggKhs",
+    "title": "Building and Deploying LLM Applications with Apache Airflow"
+  },
+  {
+    "id": "1RQP0MM3tAA",
+    "title": "AI/ML is Changing Orchestration: How Kubernetes can accelerate Airflow"
+  },
+  {
+    "id": "Tagr4IqbqDI",
+    "title": "Micropipelines: A microservice approach for DAG authoring using datasets"
+  },
+  {
+    "id": "4tR2JVqhJSc",
+    "title": "Migrate Apache Oozie Workflows to Airflow and Run with Amazon EMR"
+  },
+  {
+    "id": "d6UnOXCo9mg",
+    "title": "(Apache Airflow) Deferrable Operators"
+  },
+  {
+    "id": "-RyGhuGL2XU",
+    "title": "An Introduction to Airflow Cluster Policies"
+  },
+  {
+    "id": "J5pbH1TUv0U",
+    "title": "(Apache Airflow) Operators Need to Die"
+  },
+  {
+    "id": "KoxAg3XqoNo",
+    "title": "Future of the Airflow UI"
+  },
+  {
+    "id": "TVBHGWD6d2Q",
+    "title": "Better Support for Using Multiple Namespaces with KubernetesExecutor"
+  },
+  {
+    "id": "UkV1CAOul2w",
+    "title": "Event-based DAG Parsing: No more F5ing in the UI"
+  },
+  {
+    "id": "VFC0E6Oyj7A",
+    "title": "Airflow Executors: Past, present and future"
+  },
+  {
+    "id": "W0X7NEj7mRk",
+    "title": "DAG Parsing Optimizations"
+  },
+  {
+    "id": "WYB4LJbow1U",
+    "title": "Multi-tenancy State of the Union"
+  },
+  {
+    "id": "XSzJSRgWLfY",
+    "title": "Apache Airflow and OpenTelemetry"
+  },
+  {
+    "id": "pDatEFbnMwg",
+    "title": "Flexible DAG Trigger Forms (AIP-50)"
+  },
+  {
+    "id": "rEL2vM2kPug",
+    "title": "Open Source is Pretty Secure, Actually"
+  },
+  {
+    "id": "y9rSCboE6BY",
+    "title": "What Everybody Ought to Know About Airflow"
+  },
+  {
+    "id": "ya5jP6YfT0s",
+    "title": "Talking with Management About Open Source"
+  },
+  {
+    "id": "pi8V077KjEY",
+    "title": "The Faces of Airflow: A peek into the past and future"
+  },
+  {
+    "id": "Ej2Nl4sNstw",
+    "title": "Apache Airflow- August Meetup/ Demo: Using Plugins for Webserver by Faizan Qazi"
+  },
+  {
+    "id": "gqWHP7GVYj8",
+    "title": "Airflow June Meetup/Demo: Airflow + Selenium: the perfect toolkit for web scraping by Alvaro Avila"
+  },
+  {
+    "id": "5y55hBr2eXY",
+    "title": "A look under the hood of the Airflow logging subsystem"
+  },
+  {
+    "id": "EVzAcX258p8",
+    "title": "Airflow & Zeppelin Better together"
+  },
+  {
+    "id": "uKJQQW654Ok",
+    "title": "Airflow and ___: A discussion around utilizing Airflow with other data tools"
+  },
+  {
+    "id": "VaLYYZt0OPk",
+    "title": "Airflow at high scale for autonomous driving"
+  },
+  {
+    "id": "Rs3TN-qFbDo",
+    "title": "Airflow at Pinterest"
+  },
+  {
+    "id": "dydB91PDp9Y",
+    "title": "Airflow at Shopify: Keeping Users Happy while Running Airflow at Scale"
+  },
+  {
+    "id": "Dv7fDtAqgOc",
+    "title": "Airflow extensions for governing a self serviced data mesh"
+  },
+  {
+    "id": "1i2c-bhYkU0",
+    "title": "Airflow in the Cloud Lessons from the Field"
+  },
+  {
+    "id": "H8JjhiVGOlg",
+    "title": "Airflow on Kubernetes: Running on and using k8s"
+  },
+  {
+    "id": "PYTu3PWVR60",
+    "title": "All About Deferrables"
+  },
+  {
+    "id": "JsYEOdRBgRE",
+    "title": "Automatic Speech Recognition at Scale Using Tensorflow, Kubernetes and Airflow"
+  },
+  {
+    "id": "boZqIsY8EBo",
+    "title": "Automating Airflow Backfills with Marquez"
+  },
+  {
+    "id": "FfRMQGabCmA",
+    "title": "Beyond Testing How to Build Circuit Breakers with Airflow"
+  },
+  {
+    "id": "MMj4IO309xQ",
+    "title": "Data Lineage with Apache Airflow and Apache Spark"
+  },
+  {
+    "id": "hdgwXdrdlco",
+    "title": "Data Science Platform at PlayStation and Apache Airflow"
+  },
+  {
+    "id": "md4F6SarTww",
+    "title": "Future of the Airflow UI"
+  },
+  {
+    "id": "_pLDo04sv2U",
+    "title": "git push your data stack with Airbyte, Airflow and dbt"
+  },
+  {
+    "id": "Wf5VNH9su9I",
+    "title": "Happy DAGs  Happy Teammates How a little CICD can go a long way"
+  },
+  {
+    "id": "G6VjYvKr2wQ",
+    "title": "Hey maintainer and user, exercise your empathy"
+  },
+  {
+    "id": "H4ysGWtqlWI",
+    "title": "How DAG Became a Test: Airflow System Tests Redefined"
+  },
+  {
+    "id": "89eckK9xL10",
+    "title": "How to Achieve Reliable Data in your Airflow Pipelines with Databand"
+  },
+  {
+    "id": "kvsAwLLA9P4",
+    "title": "How to Deploy Airflow From Dev to Prod Like A BOSS"
+  },
+  {
+    "id": "QAfadJhP4UQ",
+    "title": "Implementing Event Based DAGs with Airflow"
+  },
+  {
+    "id": "2bhinOfU990",
+    "title": "Introducing Astro Python SDK The next generation of DAG authoring"
+  },
+  {
+    "id": "l5lX_Qvav6k",
+    "title": "Ingesting Game Telemetry in near Real time dynamically into Redshift with Airflow WB Games"
+  },
+  {
+    "id": "XKsh8D0QEbo",
+    "title": "Keep Calm & Query On: Debugging Broken Data Pipelines with Airflow"
+  },
+  {
+    "id": "atBCFZpBJiY",
+    "title": "Kyte: Scalable and Isolated DAG Development Experience at Lyft"
+  },
+  {
+    "id": "5Ap2t9qJE18",
+    "title": "On Demand DAG through the REST API"
+  },
+  {
+    "id": "J7ta61sZzBc",
+    "title": "OpenLineage & Airflow: Data lineage has never been easier"
+  },
+  {
+    "id": "c7t_d3jj5t4",
+    "title": "Preventative Metadata Building for data reliability with DataHub, Airflow, & Great Expectations"
+  },
+  {
+    "id": "sPOLGMlL6mo",
+    "title": "Running +150 production Airflow on Kubernetes, is that HARD"
+  },
+  {
+    "id": "abLGyapcbw0",
+    "title": "Skip tasks to make your debugging easy"
+  },
+  {
+    "id": "mF9mv-klQIU",
+    "title": "The SLAyer your Data Pipeline Needs"
+  },
+  {
+    "id": "ER_o1iA6DN0",
+    "title": "The tale of a startup's data journey and its growing need for orchestration"
+  },
+  {
+    "id": "bNK1neHhGhs",
+    "title": "Using the Fivetran Airflow Provider"
+  },
+  {
+    "id": "SyXpGtIW3-Q",
+    "title": "Vega Unifying Machine Learning Workflows at Credit Karma using Apache Airflow"
+  },
+  {
+    "id": "rBq7lW9Q4Uo",
+    "title": "Well Architected Workflows in Apache Airflow"
+  },
+  {
+    "id": "YZaP5e071aQ",
+    "title": "What is data lineage and why should I care"
+  },
+  {
+    "id": "ceL2hU_Iu8U",
+    "title": "What's new in Airflow 2.3"
+  },
+  {
+    "id": "ab2_OfCK130",
+    "title": "What's New with Amazon Managed Workflows for Apache Airflow MWAA"
+  },
+  {
+    "id": "JE3Tmvjyk20",
+    "title": "Wisdoms learnt when contributing to Apache Airflow"
+  },
+  {
+    "id": "Bf1VOFvQPSc",
+    "title": "Lets use Airflow differently let's talk load tests"
+  },
+  {
+    "id": "k5IRFA66GOE",
+    "title": "Leveraging Open Source Projects For Personal Development"
+  },
+  {
+    "id": "QhSn9oviZ9g",
+    "title": "Love for writing deferrable operators Why and how to defer"
+  },
+  {
+    "id": "JsV04lsH8_U",
+    "title": "Managing Apache Airflow at Scale"
+  },
+  {
+    "id": "ri-HPjwSlXw",
+    "title": "Managing Multiple ML Models For Multiple Clients  Steps For Scaling Up"
+  },
+  {
+    "id": "1-lYJ2c_tG8",
+    "title": "Modern Data Orchestration managed by Astronomer"
+  },
+  {
+    "id": "nBNbVhz7rhE",
+    "title": "Multitenancy is coming"
+  },
+  {
+    "id": "1jtqoi4mVr0",
+    "title": "Scaling Apache Airflow in multiple data teams | Airflow Summit 2022"
+  },
+  {
+    "id": "RwcnD4bEuOc",
+    "title": "Choosing Apache Airflow over other Proprietary Tools for your Orchestration needs"
+  },
+  {
+    "id": "4jIUGAP4BKE",
+    "title": "Using Apache Airflow to orchestrate workflows across hybrid environments"
+  },
+  {
+    "id": "uA-8Lj1RNgw",
+    "title": "Manage Dags at scale: Dags versioning & package management"
+  },
+  {
+    "id": "P6sqdPr7h1M",
+    "title": "Dynamic Dags: The New Horizon"
+  },
+  {
+    "id": "vNYuRYdTqI0",
+    "title": "How to Build Your Data Platform Like a Product"
+  },
+  {
+    "id": "wl8FBpg4skQ",
+    "title": "Airflow Summit 2022 Opening Video"
+  },
+  {
+    "id": "-j3wv6uAVVI",
+    "title": "Airflow April Meetup/ Demo: You don’t need an orchestrator by Benoit Pimpaud"
+  },
+  {
+    "id": "aPfUkchYL-o",
+    "title": "Airflow March Meetup/ Demo: Data Migration Pipeline with Apache Airflow by Sameer Shukla"
+  },
+  {
+    "id": "MfiEhlDhEI0",
+    "title": "Airflow Community Meetup Feb/ Happy DAGs + Happier Teammates: How a little CICD can go a long way"
+  },
+  {
+    "id": "xsZVbYOrij4",
+    "title": "Airflow Community Meetup \"The Future of Microbial Genomics with Apache Airflow\" by Elijah Scheele\""
+  },
+  {
+    "id": "9f4HFytxnyA",
+    "title": "Automating Ideas with Airflow Spanish Version"
+  },
+  {
+    "id": "OUNT0DheZCo",
+    "title": "My Journey as a New Airflow Commiter Spanish Version"
+  },
+  {
+    "id": "mr6v-b65dpg",
+    "title": "My Journey as a New Airflow Commiter"
+  },
+  {
+    "id": "SWZvtL1uxJE",
+    "title": "Automating Ideas with Airflow"
+  },
+  {
+    "id": "CVeGPn8QCAA",
+    "title": "Autoscaling in Airflow   Lessons learned"
+  },
+  {
+    "id": "NCgVj-QbmPA",
+    "title": "Airflow and Analytics Engineering - Dos and don'ts"
+  },
+  {
+    "id": "nlsN2BMrvBY",
+    "title": "Robots are your friends - using automation to keep your Airflow operators up to date"
+  },
+  {
+    "id": "D794wBJsvn8",
+    "title": "SciDAP: Airflow and CWL-powered bioinformatics platform"
+  },
+  {
+    "id": "MNQsehu9vac",
+    "title": "Apache Airflow at Wise"
+  },
+  {
+    "id": "t4BdWuu--io",
+    "title": "An On-Demand Airflow Service for Internet Scale Gameplay Pipelines"
+  },
+  {
+    "id": "3qCunfl3jvo",
+    "title": "Modernize a decade old pipeline with Airflow 2.0"
+  },
+  {
+    "id": "qQAdpbNhxl8",
+    "title": "Data Lineage with Apache Airflow using OpenLineage"
+  },
+  {
+    "id": "rvl-9cldMiU",
+    "title": "Data Pipeline HealthCheck for Correctness, Performance, and Cost Efficiency"
+  },
+  {
+    "id": "uunkcFFEnqs",
+    "title": "Apache Airflow at Apple - Multi-tenant Airflow and Custom Operators"
+  },
+  {
+    "id": "xcXcATWQpvw",
+    "title": "You don’t have to wait for someone to fix it for you"
+  },
+  {
+    "id": "ewPj1L4I68c",
+    "title": "Writing Dry Code in Airflow"
+  },
+  {
+    "id": "pXSwJEkqAaQ",
+    "title": "WELCOME VIDEO Airflow Summit 2021"
+  },
+  {
+    "id": "hoCdW-8lyyo",
+    "title": "Usability Improvements Debugging & Inspection Tooling"
+  },
+  {
+    "id": "dM7sVjKrQw8",
+    "title": "Upgrading to Apache Airflow 2"
+  },
+  {
+    "id": "oLTMN-4Rvj8",
+    "title": "The Newcomer's Guide to Airflow's Architecture"
+  },
+  {
+    "id": "l48zwwRSGeA",
+    "title": "The new modern data stack   Airbyte Airflow DBT"
+  },
+  {
+    "id": "bGqngCoYCyg",
+    "title": "Running Big Data Applications in production with Airflow + Firebolt"
+  },
+  {
+    "id": "NGkh8Ql3m5I",
+    "title": "Reverse ETL on Airflow"
+  },
+  {
+    "id": "UgdL9MLN_6w",
+    "title": "Provision as a Service Automating data center operations with Airflow at Cloudflare"
+  },
+  {
+    "id": "hPxMZ6_lRhg",
+    "title": "Productionizing ML Pipelines with Airflow, Kedro, and Great Expectations"
+  },
+  {
+    "id": "MBlc7CM6gqE",
+    "title": "Pinterest’s Migration Journey"
+  },
+  {
+    "id": "xfu67FWFap4",
+    "title": "Orchestrating ELT with Fivetran and Airflow"
+  },
+  {
+    "id": "flxbn4hO5pk",
+    "title": "Operating contexts patterns around defining how a DAG should behave in dev staging prod & beyond"
+  },
+  {
+    "id": "Shn_ejTBLJI",
+    "title": "Next Gen Astronomer Cloud"
+  },
+  {
+    "id": "mtXOlusf4Yo",
+    "title": "MWAA   Design Choices and Road Ahead"
+  },
+  {
+    "id": "LmeTeq5OK74",
+    "title": "Looking ahead: What comes after Airflow 2 0"
+  },
+  {
+    "id": "zM2ing7mnSw",
+    "title": "Lessons Learned while Migrating Data Pipelines from Enterprise Schedulers to Airflow"
+  },
+  {
+    "id": "K6Aen2p2FFU",
+    "title": "Introducing Viewflow a framework for writing data models without writing Airflow code"
+  },
+  {
+    "id": "apu7226rZUw",
+    "title": "Guaranteeing pipeline SLAs and data quality standards with Databand"
+  },
+  {
+    "id": "Bv8gqA_rdhE",
+    "title": "Dynamic Security Roles in Airflow for Multi Tenancy"
+  },
+  {
+    "id": "86uqFr3LIc8",
+    "title": "Discussion panel Keep your Airflow secure"
+  },
+  {
+    "id": "DYC4-xElccE",
+    "title": "Deep dive in to the Airflow scheduler"
+  },
+  {
+    "id": "ja2siGyklq0",
+    "title": "Dataclasses as Pipeline Definitions in Airflow"
+  },
+  {
+    "id": "iI0ymwOij88",
+    "title": "Customizing Xcom to enhance data sharing between tasks"
+  },
+  {
+    "id": "dRuwbgDV8d4",
+    "title": "Creating Data Pipelines with Elyra a visual DAG composer and Apache Airflow"
+  },
+  {
+    "id": "sKR-N6UI9Ac",
+    "title": "Create Your Custom Secrets Backend for Apache Airflow"
+  },
+  {
+    "id": "9Vzn1hG5HBQ",
+    "title": "Contributing to Apache Airflow: First Steps"
+  },
+  {
+    "id": "97AC6SDylKg",
+    "title": "Contributing to Apache Airflow  Journey to becoming Airflows leading contributor"
+  },
+  {
+    "id": "5zAv_GTUEZw",
+    "title": "Clearing Airflow obstructions"
+  },
+  {
+    "id": "dso4E4aLdlY",
+    "title": "Building the Data Science Platform with Airflow at Near"
+  },
+  {
+    "id": "qFNzL957VO0",
+    "title": "Building the Airflow Event Stream"
+  },
+  {
+    "id": "cFPXVMg_nRY",
+    "title": "Building Providers & DAGs in the Airflow Ecosystem"
+  },
+  {
+    "id": "R6Wa4RsMyG0",
+    "title": "Building an Elastic Platform Using Airflow Uniquely as an Orchestrator"
+  },
+  {
+    "id": "1d9-X0UxqAM",
+    "title": "Building a Scalable & Isolated Architecture for Preprocessing Medical Records"
+  },
+  {
+    "id": "cmcFMz0xsz0",
+    "title": "Building a robust data pipeline with the dAG stack dbt, Airflow, Great Expectations"
+  },
+  {
+    "id": "3fJ_xSvwjz8",
+    "title": "Apache Airflow and Ray Orchestrating ML at Scale"
+  },
+  {
+    "id": "79IyGdIU7FA",
+    "title": "Apache Airflow 2.0 on Amazon MWAA"
+  },
+  {
+    "id": "PTzqDNWixps",
+    "title": "Airflow The Power of Stitching Services Together"
+  },
+  {
+    "id": "Xub3mJVtYpc",
+    "title": "Airflow loves Kubernetes"
+  },
+  {
+    "id": "FrHp3MVe1fM",
+    "title": "Airflow Journey @ Société Générale"
+  },
+  {
+    "id": "p4JpHFR932I",
+    "title": "Airflow Extensions for Streamlined ETL Backfilling"
+  },
+  {
+    "id": "693npGDaRgU",
+    "title": "Airflow as the Foundation of a Multi Faceted Data Platform"
+  },
+  {
+    "id": "fyfAXAbxhg0",
+    "title": "Advanced Superset for Engineers API’s, Version Controlled Dashboards, & more"
+  },
+  {
+    "id": "0kQDEVyN1ac",
+    "title": "Spring into Airflow | Airflow Community Meetup English Edition | April 2021"
+  },
+  {
+    "id": "i4JFRqozelM",
+    "title": "Airflow Community Meetup | April 2021 Spanish Language edition"
+  },
+  {
+    "id": "E8ouMCCtq9g",
+    "title": "Cloud Composer support for UI access control"
+  },
+  {
+    "id": "mzu4eYOy-Ak",
+    "title": "Getting started with Airflow 2.0"
+  },
+  {
+    "id": "Ibf-XrNPxUU",
+    "title": "Contributing to Airflow, Your OSS adventure"
+  },
+  {
+    "id": "yuqXWClbEM8",
+    "title": "From S3 to BigQuery - How a first-time Airflow user successfully implemented a data pipeline"
+  },
+  {
+    "id": "aQIZ_Wdy0lA",
+    "title": "Achieving Airflow observability with Databand"
+  },
+  {
+    "id": "q9pdAlcMo48",
+    "title": "How do we reason about the reliability of our data pipeline in Wrike"
+  },
+  {
+    "id": "_50-JFCsp3I",
+    "title": "Airflow as an elastic ETL tool"
+  },
+  {
+    "id": "wDr3Y7q2XoI",
+    "title": "Production Docker image for Apache Airflow"
+  },
+  {
+    "id": "tY4F9X5l6dg",
+    "title": "Pipelines on pipelines: Agile CI/CD workflows for Airflow DAGs"
+  },
+  {
+    "id": "R4bp3_VyJ70",
+    "title": "Building reuseable and trustworthy ELT pipelines (A templated approach)"
+  },
+  {
+    "id": "Hc4pYAUL6Qs",
+    "title": "Achieving Airflow Observability"
+  },
+  {
+    "id": "u00wmcHe8ow",
+    "title": "Scheduler as a service - Apache Airflow at EA Digital Platform"
+  },
+  {
+    "id": "GB2f7ZhRCho",
+    "title": "Keynote: Airflow then and now"
+  },
+  {
+    "id": "ZgTf523XM0g",
+    "title": "Airflow CI/CD: Github to Cloud Composer (safely)"
+  },
+  {
+    "id": "tO6IBDPNAcY",
+    "title": "Ask me anything with Airflow members"
+  },
+  {
+    "id": "YLsGVFB8Pws",
+    "title": "Keynote: Future of Airflow"
+  },
+  {
+    "id": "1SSlxAcOEso",
+    "title": "Migration to Airflow backport providers"
+  },
+  {
+    "id": "giQReCd7jp8",
+    "title": "From cron to Airflow on Kubernetes: A startup story"
+  },
+  {
+    "id": "vsn5kurjHwQ",
+    "title": "Airflow the perfect match in our analytics pipeline"
+  },
+  {
+    "id": "fe59rUezJ5Q",
+    "title": "Improving Airflow's user experience"
+  },
+  {
+    "id": "BH0ut33zp9A",
+    "title": "Airflow: A beast character in the gaming world"
+  },
+  {
+    "id": "VApoz5KCguM",
+    "title": "Airflow at Société Générale : An open source orchestration solution in a banking environment"
+  },
+  {
+    "id": "II4Ip81T3qc",
+    "title": "AIP-31: Airflow functional DAG definition"
+  },
+  {
+    "id": "QhnItssm4yU",
+    "title": "Run Airflow DAGs in a secure way"
+  },
+  {
+    "id": "wxn9ta13Gbo",
+    "title": "Keynote: Making Airflow a sustainable project through D&I"
+  },
+  {
+    "id": "wEq1FGe6oBY",
+    "title": "Autonomous driving with Airflow"
+  },
+  {
+    "id": "p66GcO0LbFQ",
+    "title": "Effective Cross-DAG dependency"
+  },
+  {
+    "id": "l_vVxOdvujg",
+    "title": "Data DAGs with lineage for fun and for profit"
+  },
+  {
+    "id": "kxyCC1sieok",
+    "title": "From Zero to Airflow: bootstrapping a ML platform"
+  },
+  {
+    "id": "kAtaj_s4f-w",
+    "title": "Data flow with Airflow @ PayPal"
+  },
+  {
+    "id": "i79OsoLUx0k",
+    "title": "Migrating Airflow-based Spark jobs to Kubernetes - the native way"
+  },
+  {
+    "id": "SvnTyDiZOzQ",
+    "title": "Data engineering hierarchy of needs"
+  },
+  {
+    "id": "RKEmAshcreE",
+    "title": "Adding an executor to Airflow: A contributor overflow exception"
+  },
+  {
+    "id": "N_3RQeqySE0",
+    "title": "Machine Learning with Apache Airflow"
+  },
+  {
+    "id": "Mhai7sVU244",
+    "title": "Advanced Apache Superset for Data Engineers"
+  },
+  {
+    "id": "KpCPfooD5hM",
+    "title": "Airflow as the next gen of workflow system at Pinterest"
+  },
+  {
+    "id": "KIEMEYM2PEs",
+    "title": "What open source taught us about business"
+  },
+  {
+    "id": "I4nFCqEnOJc",
+    "title": "Demo: Reducing the lines, a visual DAG editor"
+  },
+  {
+    "id": "GTQU8ff_O_4",
+    "title": "Using Airflow to speed up development of data intensive tools"
+  },
+  {
+    "id": "DHDlD-bMM3c",
+    "title": "Teaching an old DAG new tricks"
+  },
+  {
+    "id": "Cd4-YtHYT9M",
+    "title": "Democratised data workflows at scale"
+  },
+  {
+    "id": "ANJnYbLwLjE",
+    "title": "Testing Airflow workflows - ensuring your DAGs work before going into production"
+  },
+  {
+    "id": "428AiCBMZoQ",
+    "title": "Keynote: How large companies use Airflow for ML and ETL pipelines"
+  },
+  {
+    "id": "3VDeKmxHWYA",
+    "title": "Airflow on Kubernetes: Containerizing your workflows"
+  },
+  {
+    "id": "4MCTXq-oF68",
+    "title": "Airflow Breeze - Development and Test Environment for Apache Airflow"
+  },
+  {
+    "id": "znowFIBK1lk",
+    "title": "What's coming in Airflow 2.0?"
+  },
+  {
+    "id": "f0y80U2-l0M",
+    "title": "Knative Executor meeting October 30th, 2019"
+  },
+  {
+    "id": "kmD_u8VfuT0",
+    "title": "Airflow London Meetup @ King [Camera View]"
+  },
+  {
+    "id": "CMuQWMR2Iu8",
+    "title": "Airflow London Meetup @ King"
+  },
+  {
+    "id": "8L1F-6t_6Ao",
+    "title": "Migrating Apache Oozie Workflows to Apache Airflow"
+  },
+  {
+    "id": "DROEC84U27o",
+    "title": "Running Apache Airflow Reliably on Kubernetes"
+  },
+  {
+    "id": "fUE-naGytLc",
+    "title": "It's a Breeze to develop Airflow"
+  },
+  {
+    "id": "g8AGM-03QTI",
+    "title": "Make Airflow Performant, Secure and Simple: a Composer Perspective"
+  },
+  {
+    "id": "0RIHCsl4b4U",
+    "title": "Running open source data analytics services in Google Cloud"
+  }
+]

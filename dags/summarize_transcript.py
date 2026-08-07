@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 from youtube_transcript_api import YouTubeTranscriptApi
 from airflow.providers.smtp.hooks.smtp import SmtpHook
+import html
 
 INCLUDE_DIR = Path(__file__).resolve().parent.parent / "include"
 
@@ -98,7 +99,6 @@ def summarize_transcript():
 
     @task
     def combine_digest(summaries: list[dict]):
-        import html
 
         sections = []
         for video in summaries:
