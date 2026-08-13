@@ -63,7 +63,6 @@ def summarize_transcript():
         seen_ids = set(seen_ids)
         return [v for v in metadata if v["id"] not in seen_ids]
 
-    # extract a transcript per new video
     @task
     def extract_transcripts(video: dict):
         ytt_api = YouTubeTranscriptApi()
